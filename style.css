@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 667px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: var(--Light-gray);
+}
+
+.card-container {
+    background-color: var(--White);
+    width: 323px;
+    height: 500px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-container__qr {
+    border-radius: 8px;
+    width: 289px;
+    height: 289px;
+    margin: 18px auto;
+    background-image: url(./images/image-qr-code.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.card-container__description {
+    padding: 0px 35px;
+    margin-top: 25px;
+}
+
+.card-container__description h1 {
+    text-align: center;
+    font-size: 1.4em;
+    color: var(--Dark-blue);
+    margin-bottom: 25px;
+}
+
+.card-container__description p {
+    text-align: center;
+    font-size: 1em;
+    color: var(--Grayish-blue);
+}
+
+/* .container-principal__cod-qr {
+    border-radius: 15px;
+    background-image: url(./images/image-qr-code.png);
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: 60%;
+    margin: 15px 20px 10px 15px;
+}
+
+.container-principal h1 {
+    width: 80%;
+    color: var(--Dark-blue);
+    font-weight: 700;
+    font-size: 1.4em;
+    margin: 25px 25px 5px 30px;
+    text-align: center;
+}
+
+.container-principal p {
+    width: 80%;
+    color: var(--Grayish-blue);
+    font-weight: 400;
+    font-size: 0.9em;
+    margin: 10px 0px 0px 25px;
+    text-align: center;
+}
+ */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
